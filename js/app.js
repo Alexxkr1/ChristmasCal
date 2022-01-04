@@ -1,4 +1,4 @@
-const btn = document.querySelector('.btn-start');
+const btn = document.querySelector('.btnStart');
 const calendarContainer = document.querySelector('.container');
 const calendarDay = 24;
 
@@ -8,12 +8,8 @@ const targetDate = new Date('Dec 24, 2021, 00:00:01').getTime();
 
 const interval = setInterval(() =>{
     console.log('tick');
-
-    const now = new Date().getTime(); //current time
-    console.log(now);
-
+    const now = new Date().getTime();
     const timeLeft = targetDate - now;
-
     const days = Math.floor(timeLeft/(1000*60*60*24));
     console.log(days);
     const hours = Math.floor(timeLeft % (1000*60*60*24) / (1000*60*60));

@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(59, 3, 3);
 }
 
-.button-container{
+.buttonContainer{
     text-align: center;
     padding: 2rem;
 }
 
-.btn-start{
+.btnStart{
     display: inline-block;
-    background-color: seagreen; 
+    background-color: rgb(0, 16, 235); 
     border-radius: 5px;
     padding: 2rem;
     font-size: 2rem;
@@ -23,7 +24,7 @@
     width: 1000px;
     border: 1px solid #333;
     margin: 1rem auto;
-    background-image: url('../images/img1.jpeg');
+    background-image: url('../img/img1.jpg');
     background-size: cover;
     background-position: center;
     display: grid;
@@ -67,7 +68,7 @@
     font-size: 5rem;
 }
 
-.timer-container{
+.timerContainer{
     position: relative;
     margin-bottom: 20rem;
     padding-bottom: 25rem;
